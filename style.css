@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+    ;
+}
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color:rgb(211, 206, 206);
+}
+
+h1{
+    margin: 80px 0 50px 0;
+    font-size:3rem;
+    text-transform: uppercase;
+}
+.text-content p{
+    margin-left:30px;
+}
+ul{
+    padding-top:20px;
+    padding-left:50px;
+    line-height: 45px;;
+}
+
+.container{
+    padding:29px;
+    display:flex;
+    justify-content: space-evenly;
+    border:solid rgb(61, 41, 41) 10px;
+    word-wrap:break-word;
+    min-width: 843px
+}
+
+#snake-title{
+    background:linear-gradient(to right bottom, #066618, #236b14, #356f0f, #45730a, #547705);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.game-board{
+    height:512px;
+    width:512;
+    border:solid rgb(61, 41, 41) 10px;
+    border-radius:5px;
+}
+
+.button-box{
+    margin:50px 50px 50px 0px;
+    text-align:right; 
+    display:flex;
+    justify-content: space-around;
+}
+
+.button-box #restart{
+    text-transform: uppercase;
+    padding:25px;
+    text-align: center;
+    font-weight: bolder;
+    font-size:1rem;
+    background-color:yellowgreen;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+    color:#293a03;
+}
+
+.button-box #restart:hover{
+    background-color:whitesmoke;
+}
+
+#game-over{
+    color:red;
+    text-align:left;
+    font-size:2rem;
+    margin-right:10px;
+    margin-top:10px;
+
+    padding:25px;
+
+}

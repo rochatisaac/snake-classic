@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+
+    <title>🐍 Snake Game</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Isaac">
+    <meta name="description" content="Snake Game">
+    <meta name="keywords" content="html5, tecnologia">
+    <meta name="viewport" content="width=device-width">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+    
+
+</head>
+  
+<body>
+    <div class="container">
+        <div class = "text-content">
+            <h1>Old School <span id="snake-title"> Snake</span></h1>
+            <p>How to play:</p>
+            <ul>
+                <li>Use your keyboard arrows to move the Snake</li>
+                <li>Eat as many fruits as you can before bitting yourself</li>
+                <li>Click the "RESTART" button to try again</li>
+            </ul>
+            <div class="button-box">
+                <p id = "game-over"></p>
+                <button id="restart">Restart</button>
+            </div>
+        </div>
+        <div class = "game-board">
+            <canvas id="snake" width="512" height="512">
+            </canvas>
+        </div>
+    </div>
+</body>
+
+</html>
