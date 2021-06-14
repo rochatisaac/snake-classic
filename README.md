@@ -1,2 +1,2 @@
-# [rochatisaac.github.io/classic-snake](https://rochatisaac.github.io/classic-snake/)
+# [rochatisaac.github.io/snake-classic](https://rochatisaac.github.io/snake-classic/)
 G'old Snake Game.
